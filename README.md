@@ -58,26 +58,25 @@ cd AI-CCP-Project
 
 ### Step 2: Setup Environment (Anaconda Recommended)
 
-**A. Create Environment:**
-```bash
-conda create -n shape-cnn-env python=3.9
-```
+- **A. Create Environment:**
+  ```bash
+  conda create -n shape-cnn-env python=3.9
+  ```
 
-**B. Activate Environment:**
-```bash
-conda activate shape-cnn-env
-```
+- **B. Activate Environment:**
+  ```bash
+  conda activate shape-cnn-env
+  ```
 
-**C. Install Dependencies:**
-```bash
-pip install tensorflow scikit-learn Pillow notebook
-```
+- **C. Install Dependencies:**
+  ```bash
+  pip install tensorflow scikit-learn Pillow notebook
+  ```
 
-**D. Navigate to Your Project Directory:**
-e.g:
-```bash
-cd "C:\Users\Muhaib Shamsher\OneDrive\Desktop\AI-CCP-Project"
-```
+- **D. Navigate to Your Project Directory:**
+  ```bash
+  cd "C:\Users\Muhaib Shamsher\OneDrive\Desktop\AI-CCP-Project"
+  ```
 
 ### Step 3: (Optional) Train the Model
 
