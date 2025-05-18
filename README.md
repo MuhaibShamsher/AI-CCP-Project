@@ -58,40 +58,40 @@ cd AI-CCP-Project
 
 ### Step 2: Setup Environment (Anaconda Recommended)
 
-- **A. Create Environment:**
+- **Create Environment:**
   ```bash
   conda create -n shape-cnn-env python=3.9
   ```
 
-- **B. Activate Environment:**
+- **Activate Environment:**
   ```bash
   conda activate shape-cnn-env
   ```
 
-- **C. Install Dependencies:**
+- **Install Dependencies:**
   ```bash
   pip install tensorflow scikit-learn Pillow notebook
   ```
 
-- **D. Navigate to Your Project Directory:**
+- **Navigate to Your Project Directory:**
   ```bash
   cd "C:\Users\Muhaib Shamsher\OneDrive\Desktop\AI-CCP-Project"
   ```
 
 ### Step 3: (Optional) Train the Model
 
-**A. Launch Jupyter Notebook:**
-```bash
-jupyter notebook
-```
+- **Launch Jupyter Notebook:**
+  ```bash
+  jupyter notebook
+  ```
 
-**B. In the Jupyter interface, open the file: shape-identifier-cnn.ipynb**
+- **In the Jupyter interface, open the file: shape-identifier-cnn.ipynb**
 
-**C. Run all the cells to start training the CNN model**
+- **Run all the cells to start training the CNN model**
 
-The training process will generate and save the following files in your project directory:
-- saved_model.h5 — The trained CNN model.
-- class_indices.json — A JSON file mapping shape labels to numerical indices.
+  The training process will generate and save the following files in your project directory:
+  - saved_model.h5 — The trained CNN model.
+  - class_indices.json — A JSON file mapping shape labels to numerical indices.
 
 
 ### Step 4: Run the GUI
