@@ -49,6 +49,58 @@ After downloading:
 └── README.md # Project documentation
 ```
 
+## How to Run the Project
+
+### Step 1: Clone or Download the Project
+
+```bash
+git clone https://github.com/your-repo/shape-identifier-cnn.git
+cd shape-identifier-cnn
+```
+
+### Step 2: Setup Environment (Anaconda Recommended)
+
+**Create Environment:**
+```bash
+conda create -n shape-cnn-env python=3.9
+```
+
+**Activate Environment:**
+```bash
+conda activate shape-cnn-env
+```
+
+**Install Dependencies:**
+```bash
+pip install -r requirements.txt
+```
+
+### Step 3: (Optional) Train the Model
+
+If you wish to train the model yourself:
+
+**1. Launch Jupyter Notebook:**
+```bash
+jupyter notebook
+```
+
+**2. In the Jupyter interface, open the file: shape-identifier-cnn.ipynb**
+
+**3. Run all the cells to start training the CNN model**
+
+The training process will generate and save the following files in your project directory:
+- saved_model.h5 — The trained CNN model.
+- class_indices.json — A JSON file mapping shape labels to numerical indices.
+
+**Note: You may skip this step if both saved_model.h5 and class_indices.json already exist in the project directory.**
+
+### Step 4: Run the GUI
+```bash
+python shapeIdentifier.py
+```
+Use the canvas to draw shapes or click Upload to select an image.
+Click Predict Shape to get results.
+
 
 ## Tools and Technologies
 
