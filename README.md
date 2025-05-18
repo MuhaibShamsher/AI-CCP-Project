@@ -26,9 +26,7 @@ The model currently supports the following 8 geometric shapes:
 
 We use the **Geometric Shapes Mathematics** dataset available on Kaggle: [Download Dataset from Kaggle](https://www.kaggle.com/datasets/reevald/geometric-shapes-mathematics?resource=download)
 
-After downloading:
-- Extract the dataset and structure it as:
-
+After downloading: Extract the dataset and structure it as:
 ```plaintext
 /dataset/
 ├── train/
@@ -54,52 +52,55 @@ After downloading:
 ### Step 1: Clone or Download the Project
 
 ```bash
-git clone https://github.com/your-repo/shape-identifier-cnn.git
-cd shape-identifier-cnn
+git clone https://github.com/MuhaibShamsher/AI-CCP-Project.git
+cd AI-CCP-Project
 ```
 
 ### Step 2: Setup Environment (Anaconda Recommended)
 
-**Create Environment:**
+**A. Create Environment:**
 ```bash
 conda create -n shape-cnn-env python=3.9
 ```
 
-**Activate Environment:**
+**B. Activate Environment:**
 ```bash
 conda activate shape-cnn-env
 ```
 
-**Install Dependencies:**
+**C. Install Dependencies:**
 ```bash
-pip install -r requirements.txt
+pip install tensorflow scikit-learn Pillow notebook
+```
+
+**D. Navigate to Your Project Directory:**
+e.g:
+```bash
+cd "C:\Users\Muhaib Shamsher\OneDrive\Desktop\AI-CCP-Project"
 ```
 
 ### Step 3: (Optional) Train the Model
 
-If you wish to train the model yourself:
-
-**1. Launch Jupyter Notebook:**
+**A. Launch Jupyter Notebook:**
 ```bash
 jupyter notebook
 ```
 
-**2. In the Jupyter interface, open the file: shape-identifier-cnn.ipynb**
+**B. In the Jupyter interface, open the file: shape-identifier-cnn.ipynb**
 
-**3. Run all the cells to start training the CNN model**
+**C. Run all the cells to start training the CNN model**
 
 The training process will generate and save the following files in your project directory:
 - saved_model.h5 — The trained CNN model.
 - class_indices.json — A JSON file mapping shape labels to numerical indices.
 
-**Note: You may skip this step if both saved_model.h5 and class_indices.json already exist in the project directory.**
 
 ### Step 4: Run the GUI
 ```bash
 python shapeIdentifier.py
 ```
-Use the canvas to draw shapes or click Upload to select an image.
-Click Predict Shape to get results.
+
+Use the canvas to draw shapes or click Upload to select an image. Click Predict Shape to get results.
 
 
 ## Tools and Technologies
