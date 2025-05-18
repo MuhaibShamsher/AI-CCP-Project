@@ -24,9 +24,7 @@ The model currently supports the following 8 geometric shapes:
 
 ## Dataset
 
-We use the **Geometric Shapes Mathematics** dataset available on Kaggle:
-
-📎 [Download Dataset from Kaggle](https://www.kaggle.com/datasets/reevald/geometric-shapes-mathematics?resource=download)
+We use the **Geometric Shapes Mathematics** dataset available on Kaggle: [Download Dataset from Kaggle](https://www.kaggle.com/datasets/reevald/geometric-shapes-mathematics?resource=download)
 
 After downloading:
 - Extract the dataset and structure it as:
@@ -40,19 +38,20 @@ After downloading:
 
 
 ## Project Structure
+```plaintext
 /shape-identifier-cnn
 ├── dataset/ # Geometric shapes dataset
-├── shape-identifier-ann.ipynb # Training notebook
+├── shape-identifier-cnn.ipynb # Training notebook
 ├── shapeIdentifier.py # GUI + Prediction
 ├── saved_model.h5 # Trained CNN model
 ├── class_indices.json # Class labels to index mapping
 ├── requirements.txt # Dependencies
 └── README.md # Project documentation
+```
 
 
 ## Tools and Technologies
 
-|-----------------|----------------------------------|
 | Component       | Details                          |
 |-----------------|----------------------------------|
 | Language        | Python 3.x                       |
@@ -60,7 +59,6 @@ After downloading:
 | GUI Framework   | Tkinter                          |
 | Libraries       | PIL, NumPy, matplotlib, json, os |
 | IDE             | Jupyter Notebook, VS Code        |
-|-----------------|----------------------------------|
 
 
 ## Features
